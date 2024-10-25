@@ -1,4 +1,4 @@
-```
+```mermaid
 flowchart LR
     A[Engineering Practices]
     style A fill:#f9f,stroke:#333,stroke-width:4px
