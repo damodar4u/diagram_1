@@ -2,18 +2,18 @@
 graph TD
     A[Engineering Practices]
     
-    subgraph Code Management
+    subgraph Code_Management
         B[Version Control]
         C[Branching Strategy]
         D[Code Reviews]
     end
     
-    subgraph Development Guidelines
+    subgraph Development_Guidelines
         E[Development Coding Guidelines]
         F[Commit Frequency]
     end
     
-    subgraph Testing Practices
+    subgraph Testing_Practices
         G[Developer Testing Practices]
         H[Test Code Writing Practices]
         I[End-to-End Testing]
@@ -21,7 +21,7 @@ graph TD
         K[Regression Testing]
     end
     
-    subgraph Build and Deployment
+    subgraph Build_and_Deployment
         L[Build Automation]
         M[Build Failure Response]
         N[Deployment Automation]
@@ -31,37 +31,37 @@ graph TD
         R[Verification in Production]
     end
     
-    subgraph Technical Debt Management
+    subgraph Technical_Debt_Management
         S[Technical Debt Identification]
         T[Hardening Sprints]
         U[Regular Evaluations]
     end
     
-    subgraph Monitoring and Production
+    subgraph Monitoring_and_Production
         V[Monitoring Capability]
         W[Production Issues]
         X[Verification and Feedback]
     end
     
-    subgraph Security Practices
+    subgraph Security_Practices
         Y[Security Posture]
         Z[Proactive Security Measures]
         AA[Security Tools Integration]
     end
     
-    subgraph Feature and Value Measurement
+    subgraph Feature_and_Value_Measurement
         AB[Feature Deployment Frequency]
         AC[Feature Value Measurement]
         AD[User Feedback]
     end
     
-    A --> Code Management
-    A --> Development Guidelines
-    A --> Testing Practices
-    A --> Build and Deployment
-    A --> Technical Debt Management
-    A --> Monitoring and Production
-    A --> Security Practices
-    A --> Feature and Value Measurement
+    A --> Code_Management
+    A --> Development_Guidelines
+    A --> Testing_Practices
+    A --> Build_and_Deployment
+    A --> Technical_Debt_Management
+    A --> Monitoring_and_Production
+    A --> Security_Practices
+    A --> Feature_and_Value_Measurement
 
 ```
