@@ -1,67 +1,45 @@
 ``` mermaid
-graph TD
+graph TB
     A[Engineering Practices]
     
-    subgraph Code_Management
-        B[Version Control]
-        C[Branching Strategy]
-        D[Code Reviews]
-    end
+    A --> B[Code Management]
+    B --> B1[Version Control]
+    B --> B2[Branching Strategy]
+    B --> B3[Code Reviews]
     
-    subgraph Development_Guidelines
-        E[Development Coding Guidelines]
-        F[Commit Frequency]
-    end
+    A --> C[Development Guidelines]
+    C --> C1[Development Coding Guidelines]
+    C --> C2[Commit Frequency]
     
-    subgraph Testing_Practices
-        G[Developer Testing Practices]
-        H[Test Code Writing Practices]
-        I[End-to-End Testing]
-        J[Test Automation]
-        K[Regression Testing]
-    end
+    A --> D[Testing Practices]
+    D --> D1[Developer Testing Practices]
+    D --> D2[Test Code Writing Practices]
+    D --> D3[End-to-End Testing]
+    D --> D4[Test Automation]
+    D --> D5[Regression Testing]
     
-    subgraph Build_and_Deployment
-        L[Build Automation]
-        M[Build Failure Response]
-        N[Deployment Automation]
-        O[Rollback Capabilities]
-        P[Release and Deployment]
-        Q[System Availability During Deployments]
-        R[Verification in Production]
-    end
+    A --> E[Build and Deployment]
+    E --> E1[Build Automation]
+    E --> E2[Build Failure Response]
+    E --> E3[Deployment Automation]
+    E --> E4[Rollback Capabilities]
+    E --> E5[Release and Deployment]
+    E --> E6[System Availability During Deployments]
+    E --> E7[Verification in Production]
     
-    subgraph Technical_Debt_Management
-        S[Technical Debt Identification]
-        T[Hardening Sprints]
-        U[Regular Evaluations]
-    end
+    A --> F[Technical Debt Management]
+    F --> F1[Technical Debt Identification]
+    F --> F2[Hardening Sprints]
+    F --> F3[Regular Evaluations]
     
-    subgraph Monitoring_and_Production
-        V[Monitoring Capability]
-        W[Production Issues]
-        X[Verification and Feedback]
-    end
+    A --> G[Monitoring and Production]
+    G --> G1[Monitoring Capability]
+    G --> G2[Production Issues]
+    G --> G3[Verification and Feedback]
     
-    subgraph Security_Practices
-        Y[Security Posture]
-        Z[Proactive Security Measures]
-        AA[Security Tools Integration]
-    end
-    
-    subgraph Feature_and_Value_Measurement
-        AB[Feature Deployment Frequency]
-        AC[Feature Value Measurement]
-        AD[User Feedback]
-    end
-    
-    A --> Code_Management
-    A --> Development_Guidelines
-    A --> Testing_Practices
-    A --> Build_and_Deployment
-    A --> Technical_Debt_Management
-    A --> Monitoring_and_Production
-    A --> Security_Practices
-    A --> Feature_and_Value_Measurement
+    A --> H[Security Practices]
+    H --> H1[Security Posture]
+    H --> H2[Proactive Security Measures]
+    H --> H3[Security Tools Integration]
 
 ```
