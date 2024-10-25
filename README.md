@@ -1,5 +1,5 @@
 ```mermaid
-graph TD
+flowchart TD
     A[Engineering Practices]
     style A fill:#f9f,stroke:#333,stroke-width:4px
 
