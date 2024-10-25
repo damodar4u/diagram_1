@@ -1,5 +1,5 @@
 ``` mermaid
-tree TD
+graph LT
     A --> C[Branching Strategy]
     A --> D[Technical Debt]
     A --> E[Development Coding Guidelines]
