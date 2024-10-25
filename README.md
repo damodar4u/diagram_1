@@ -1,5 +1,5 @@
 ``` mermaid
-graph TB
+graph TD
     A[Engineering Practices]
     
     A --> B[Code Management]
@@ -41,5 +41,11 @@ graph TB
     H --> H1[Security Posture]
     H --> H2[Proactive Security Measures]
     H --> H3[Security Tools Integration]
+    
+    A --> I[Feature and Value Measurement]
+    I --> I1[Feature Deployment Frequency]
+    I --> I2[Feature Value Measurement]
+    I --> I3[User Feedback]
+
 
 ```
